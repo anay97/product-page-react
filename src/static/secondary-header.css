@@ -1,0 +1,22 @@
+.secondary-header{
+	background-color:#c12026;
+	border:1px solid black;
+	width:100%;
+	padding:1%;
+}
+.search{
+	text-align:center;
+}
+#go,#query,#categories,#locations{
+	margin-left:1%;
+	border-radius:5px;
+	padding:5px;
+	
+}
+#go{
+	background-color:#c12026;
+	border: 2px solid white;
+	color:white;
+	border-radius:2px !important;
+	margin-left:3%;
+}

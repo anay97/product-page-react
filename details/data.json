@@ -1,0 +1,26 @@
+{
+	"categories":["toys", "vehicles", "mobile phones"],
+	"locations":["Sydney, Australia", "Melbourne, Australia", "Mumbai, India", "Bucharest, Romania", "Montreal, Canada"],
+	"seller":{
+		"Name": "Andrew C.",
+		"Rating": 4.5,
+		"member_since": 2018,
+		"phone_number": "0455 678 991"
+	},
+	"item":{
+		"title" : "2017 Audi RS5",
+		"location" : "Sydnew, NSW",
+		"item_details" : {
+			"price" : 58000,
+			"currency": "AUD",
+			"negociable": true,
+			"Make":"Audi",
+			"Model":"RS5",
+			"Year":2017,
+			"Condition":"NEW",
+			"Category":"Semi Luxury Car",
+			"Registration": "YH2-005"
+		},
+		"description" : " 2017 Audi RS5 18000km bla bla bla etc etc"
+	}
+}
