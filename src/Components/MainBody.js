@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
+
+//CSS File for the page
 import '../static/main-body.css';
 
+//Images for the Slideshow to be included
 import img1 from '../assets/images/a1.jpg';
 import img2 from '../assets/images/a2.jpg';
 import img3 from '../assets/images/a3.jpg';
 
+//Importing data.json
 import data from '../assets/data.json';
+
+//Library for Slideshow
 import { Fade  } from 'react-slideshow-image';
+
 let item,itemDetails,negotiable;
 
+//Add all the images here
 const images = [img1,img2,img3];
 
 
@@ -19,7 +27,8 @@ class MainBody extends Component {
 		super();
 		item=data.item;
 		itemDetails=data.item.item_details;
-		console.log(images);
+		
+		//If negotiable price then add Negotiable else non-negotiable
 		if(itemDetails.negociable===true){
 			negotiable='Negotiable';
 		}
@@ -28,6 +37,7 @@ class MainBody extends Component {
 		}
 	}
   render() {
+	  //The <Fade /> is from the library for slideshow
     return (
       <div className="main-body">
         <h2 id="name">{item.title}</h2>

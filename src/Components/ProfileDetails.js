@@ -7,6 +7,7 @@ import Stars from './Stars';
 import Modal from 'react-modal';
 import data from '../assets/data.json';
 
+//For Modal
 const customStyles = {
   content : {
     top                   : '50%',
@@ -20,18 +21,20 @@ const customStyles = {
 
 // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#root');
+
 let seller;
 class ProfileDetails extends Component {
 	
 	constructor() {
     super();
 	seller=data.seller;
+	
+	//For Modal
     this.state = {
       modalIsOpen: false
     };
 
     this.openModal = this.openModal.bind(this);
-    //this.afterOpenModal = this.afterOpenModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
   
@@ -39,10 +42,6 @@ class ProfileDetails extends Component {
     this.setState({modalIsOpen: true});
   }
 
-//  afterOpenModal() {
-    // references are now sync'd and can be accessed.
-//    this.subtitle.style.color = '#f00';
-//  }
 
   closeModal() {
     this.setState({modalIsOpen: false});
@@ -62,11 +61,11 @@ class ProfileDetails extends Component {
 			<a className="button" onClick={this.openModal} href="#"><i className="fas fa-mobile-alt"></i> 040 X XX (reveal)</a>
 			
 			<Modal
-          isOpen={this.state.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
-          onRequestClose={this.closeModal}
-          style={customStyles}
-          contentLabel="Modal">
+			  isOpen={this.state.modalIsOpen}
+			  onAfterOpen={this.afterOpenModal}
+			  onRequestClose={this.closeModal}
+			  style={customStyles}
+			  contentLabel="Modal">
           <h2>Hello</h2>
           <div>I am a modal</div>
           This is a demo Modal
