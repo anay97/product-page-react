@@ -8,6 +8,8 @@
 	padding-right:10%;
 	border-radius:5px;
 	color:white;
+	z-index:99;
+	position:relative;
 }
 .newsletter{
 	float:right;

@@ -2,6 +2,14 @@
 	background-color:#c12026;
 	padding:1%;
 }
+.errspan {
+	float: left;
+	margin-right: 6px;
+	margin-top: -20px;
+	position: relative;
+	z-index: 2;
+	color: red;
+}
 .search{
 	text-align:center;
 }

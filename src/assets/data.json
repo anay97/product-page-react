@@ -13,7 +13,7 @@
 		"item_details" : {
 			"price" : 58000,
 			"currency": "AUD",
-			"nego": true,
+			"negociable": true,
 			"Make":"Audi",
 			"Model":"RS5",
 			"Year":2017,

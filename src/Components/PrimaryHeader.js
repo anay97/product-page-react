@@ -8,7 +8,7 @@ class PrimaryHeader extends Component {
       <div className="primary-header">
         <img src={ logo } className="logo" alt="logo" />
 		<div className="buttonList">
-			<a href="#" className="separator">Cart Icon Here</a>
+			<a href="#" className="separator"><i className="fas fa-shopping-cart"></i></a>
 			<a href="#">Register</a>
 			<a href="#">Sign In</a>
 			<a href="#" className="rounded">Sell Item</a>
