@@ -4,6 +4,7 @@ import PrimaryHeader from './Components/PrimaryHeader';
 import SecondaryHeader from './Components/SecondaryHeader';
 import MainBody from './Components/MainBody';
 import ProfileDetails from './Components/ProfileDetails';
+import Footer from './Components/Footer';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <SecondaryHeader/>
 		<MainBody />
 		<ProfileDetails />
+		<Footer />
 	  </div>
     );
   }

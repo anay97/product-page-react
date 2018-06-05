@@ -1,0 +1,36 @@
+.footer{
+	width:77vw;
+	display:inline-block;
+	background:#434343;
+	margin-left:10%;
+	padding-left:2%;
+	margin-top:5%;
+	padding-right:10%;
+	border-radius:5px;
+	color:white;
+}
+.newsletter{
+	float:right;
+	margin:5%;
+	display:inline;
+}
+.newsletter input[type='text']{
+	border-radius:5px;
+	padding:0.5%;
+	margin:1%;
+}
+.linksleft{
+	float:left;
+	margin:5%;
+}
+.linksleft a{
+	display:block;
+	color:white;
+	text-decoration:none;
+}
+.linksleft img{
+	display:block;
+	width:50%;
+	height:50%;
+	text-decoration:none;
+}

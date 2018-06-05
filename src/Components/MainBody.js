@@ -19,6 +19,7 @@ class MainBody extends Component {
 			<h2 className="item-details">Item Details</h2>
 			<div className="cost">58 000$ <small>Negotiable</small></div><br /><br />
 			<table>
+			<tbody>
 			<tr>
 			<td>Make: <span id="make">Audi</span></td>
 			<td>Year: 2016</td>
@@ -29,6 +30,7 @@ class MainBody extends Component {
 			<td>Condition: New</td>
 			<td>Registration: YH2-005</td>
 			</tr>
+			</tbody>
 			</table>
 		</div>
 		<h2 className="item-details">Description</h2>
