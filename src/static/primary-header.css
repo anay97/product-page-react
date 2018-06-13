@@ -1,5 +1,6 @@
 .primary-header{
 	background:white;
+
 }
 
 .logo{
@@ -23,9 +24,11 @@
 	color:#c12026;
 	font-weight:bold;
 	font-size:12px;
+	border:1.5px solid white;
+	border-radius:2px;
 }
 .rounded{
-	border:1.5px solid #c12026;
+	border:1.5px solid #c12026 !important;
 	border-radius:2px;
 	padding-left:2%;
 	padding-top:2px;
